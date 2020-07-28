@@ -19,6 +19,9 @@ Design description:
 6) Fits model on training data with selected number of epochs (5)
 
 Libraries utilized: Tensorflow, keras, numpy, matplotlib
+
 Dataset utilized: keras.datasets.fashion_mnist
+
 loss: 0.2972
+
 Accuracy achieved: 89.07% (Higher accuracy may be achieved through changing hyperparameters, such as # of neurons, # of epochs, and activation function selections)
