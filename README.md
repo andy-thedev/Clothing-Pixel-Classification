@@ -2,7 +2,7 @@
 
 A repository containing a clothing classification model using neural networks.
 
-Language: Python
+Language: Python  
 Libraries: Tensorflow, keras, numpy, matplotlib  
 Dataset: keras.datasets.fashion_mnist
 
