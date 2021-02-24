@@ -1,10 +1,21 @@
+# Clothing Type Pixel Classifcation
+
 A repository containing a clothing classification model using neural networks.
 
-Introduction:
+Language: Python
+Libraries: Tensorflow, keras, numpy, matplotlib  
+Dataset: keras.datasets.fashion_mnist
+
+## Intro
 
 Retrieves pixel images of clothings, size 28x28 (reconfigurable), and outputs the type of clothing it most likely classifies in (ie: T-shirt, Trouser, Sandal, Coat, Sneaker...)
 
-Design description:
+## /
+
+**Clothing_Pixel_Classification.py:**  
+The main algorithm (See section "Design description" below)
+
+## Design description
 
 1) Normalizes pixel values, as each pixel is described as a double value in the range 0 to 255. We wish to convert it into a range between 0 and 1.
 
@@ -18,9 +29,7 @@ Design description:
 
 6) Fits model on training data with selected number of epochs (5)
 
-Libraries utilized: Tensorflow, keras, numpy, matplotlib
-
-Dataset utilized: keras.datasets.fashion_mnist
+## Outcome
 
 Loss: 0.2972
 
