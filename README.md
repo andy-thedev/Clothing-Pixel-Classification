@@ -1,6 +1,6 @@
 # Clothing Type Pixel Classifcation
 
-Credit: https://github.com/techwithtim
+## Credit: https://github.com/techwithtim
 
 A repository containing a clothing classification model using neural networks.
 
